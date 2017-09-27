@@ -1,4 +1,4 @@
-<?
+<?php
 $url=file_get_contents("https://m.tvsou.com/epg/SMG");
 preg_match_all( '#<span class="start">(.*?)<\/span>#', $url, $r);
 preg_match_all( '#<span class="name">(.*?)<\/span>#', $url, $t);
@@ -10,7 +10,7 @@ $liebiao.=$v.' '.$lrc.'<br>';
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"> 
 <title>东方卫视在线直播 - 东方卫视在线直播网  - 东方卫视在线观看</title>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="Keywords" content="东方卫视在线直播,东方卫视直播网,东方卫视,在线直播，东方卫视在线观看" />
 <meta name="description" content="网络电视直播中心提供东方卫视在线直播,东方卫视直播网,东方卫视,浙江电视台,东方卫视在线观看，在线直播" />
 <script>
@@ -139,7 +139,7 @@ body {
 <br>
 
 
-   <?
+   <?php
 include 'ad/d.php';
 ?>
 <script src='/ad/d.js'></script>
@@ -155,7 +155,7 @@ include 'ad/d.php';
 <div class="zhiboplaybox">
     <div class="zhibowxtb">
 
- <div class="lrca style1"><? echo $liebiao;?></div>
+ <div class="lrca style1"><?php echo $liebiao;?></div>
   
  <div class="lrcb"> 
 <script src='/ad/600.js'></script>
