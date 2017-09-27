@@ -94,8 +94,8 @@ body {
 <script src="ad.js" type="text/javascript"></script>
 <center><div><table width="996" border="0">
   <tr>
-    <td width="146"><img src="/images/logo5.jpg" alt="东方卫视在线直播" border="0" />;&nbsp;;&nbsp;;&nbsp;</td>
-	<td width="840">;&nbsp;<script type="text/javascript">
+    <td width="146"><img src="/images/logo5.jpg" alt="东方卫视在线直播" border="0" />&nbsp;&nbsp;&nbsp; </td>
+	<td width="840">&nbsp;<script type="text/javascript">
     /*830*80 创建于 2016-03-26*/
     var cpro_id = "u2576770";
 </script>
