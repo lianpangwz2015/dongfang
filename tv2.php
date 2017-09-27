@@ -1,8 +1,8 @@
-<html>
+锘�<html>
 <head>
 
-<title>乐视直播播放页</title>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>涔愯鐩存挱鎾斁椤�</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 
 <style type="text/css">
@@ -48,7 +48,7 @@ function $id(sid){
 </head>
 <body oncontextmenu=window.event.returnValue=false; >
 <div id="welcome"></div>
-<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0"><tr id="jiemu"><td height="21" nowrap background="images/bj.gif" ><div id="lg"><a href="javascript:;" onClick="yime()" title="隐藏此信息栏" hidefocus="true"></a></div><div id="jm">东方卫视<img src="images/e.gif" width="26" height="21" border="0" align="absmiddle"></div>
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0"><tr id="jiemu"><td height="21" nowrap background="images/bj.gif" ><div id="lg"><a href="javascript:;" onClick="yime()" title="闅愯棌姝や俊鎭爮" hidefocus="true"></a></div><div id="jm">涓滄柟鍗<img src="images/e.gif" width="26" height="21" border="0" align="absmiddle"></div>
 <div id="qh"></div>
 <td></tr>
 <tr><td width="100%"><div id="player" style="display:block;background-color: #000000;height:100%;">
@@ -57,7 +57,7 @@ function $id(sid){
 <table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
 <tr>
 <td id="c_list" valign="top">
-<div class="ing"  onMouseOver="divHover('0')" onMouseOut="divLink('0')" id="d_0"><a href="jmyg.php?id=dongfang" target="c_play" >节目预告</a></div><div class="ing"  onMouseOver="divHover('1')" onMouseOut="divLink('1')" id="d_1"><a href="iframe.php?id=http://live.kankanews.com/huikan/81.html&t=200&l=105&w=750&h=700" target="c_play" >乐视-东方卫视</a></div><div class="ing"  onMouseOver="divHover('3')" onMouseOut="divLink('3')" id="d_3"><a href="http://www.letvlive.com/dfkk.php?id=800081" target="c_play" >看看-东方卫视</a></div><div class="ing"  onMouseOver="divHover('5')" onMouseOut="divLink('5')" id="d_5"><a href="migu.php" target="c_play" >手机-东方卫视</a></div><img src="images/logo.png"  alt= "" width="123" height="25" border="0">
+<div class="ing"  onMouseOver="divHover('0')" onMouseOut="divLink('0')" id="d_0"><a href="jmyg.php?id=dongfang" target="c_play" >鑺傜洰棰勫憡</a></div><div class="ing"  onMouseOver="divHover('1')" onMouseOut="divLink('1')" id="d_1"><a href="iframe.php?id=http://live.kankanews.com/huikan/81.html&t=200&l=105&w=750&h=700" target="c_play" >涔愯-涓滄柟鍗</a></div><div class="ing"  onMouseOver="divHover('3')" onMouseOut="divLink('3')" id="d_3"><a href="http://www.letvlive.com/dfkk.php?id=800081" target="c_play" >鐪嬬湅-涓滄柟鍗</a></div><div class="ing"  onMouseOver="divHover('5')" onMouseOut="divLink('5')" id="d_5"><a href="migu.php" target="c_play" >鎵嬫満-涓滄柟鍗</a></div><img src="images/logo.png"  alt= "" width="123" height="25" border="0">
 </td>
 <td>
 
