@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 $url=file_get_contents("https://m.tvsou.com/epg/SMG");
 preg_match_all( '#<span class="start">(.*?)<\/span>#', $url, $r);
 preg_match_all( '#<span class="name">(.*?)<\/span>#', $url, $t);
@@ -9,10 +9,10 @@ $liebiao.=$v.' '.$lrc.'<br>';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"> 
-<title>¶«·½ÎÀÊÓÔÚÏßÖ±²¥ - ¶«·½ÎÀÊÓÔÚÏßÖ±²¥Íø  - ¶«·½ÎÀÊÓÔÚÏß¹Û¿´</title>
+<title>ä¸œæ–¹å«è§†åœ¨çº¿ç›´æ’­ - ä¸œæ–¹å«è§†åœ¨çº¿ç›´æ’­ç½‘  - ä¸œæ–¹å«è§†åœ¨çº¿è§‚çœ‹</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Keywords" content="¶«·½ÎÀÊÓÔÚÏßÖ±²¥,¶«·½ÎÀÊÓÖ±²¥Íø,¶«·½ÎÀÊÓ,ÔÚÏßÖ±²¥£¬¶«·½ÎÀÊÓÔÚÏß¹Û¿´" />
-<meta name="description" content="ÍøÂçµçÊÓÖ±²¥ÖĞĞÄÌá¹©¶«·½ÎÀÊÓÔÚÏßÖ±²¥,¶«·½ÎÀÊÓÖ±²¥Íø,¶«·½ÎÀÊÓ,Õã½­µçÊÓÌ¨,¶«·½ÎÀÊÓÔÚÏß¹Û¿´£¬ÔÚÏßÖ±²¥" />
+<meta name="Keywords" content="ä¸œæ–¹å«è§†åœ¨çº¿ç›´æ’­,ä¸œæ–¹å«è§†ç›´æ’­ç½‘,ä¸œæ–¹å«è§†,åœ¨çº¿ç›´æ’­ï¼Œä¸œæ–¹å«è§†åœ¨çº¿è§‚çœ‹" />
+<meta name="description" content="ç½‘ç»œç”µè§†ç›´æ’­ä¸­å¿ƒæä¾›ä¸œæ–¹å«è§†åœ¨çº¿ç›´æ’­,ä¸œæ–¹å«è§†ç›´æ’­ç½‘,ä¸œæ–¹å«è§†,æµ™æ±Ÿç”µè§†å°,ä¸œæ–¹å«è§†åœ¨çº¿è§‚çœ‹ï¼Œåœ¨çº¿ç›´æ’­" />
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -40,7 +40,7 @@ s.parentNode.insertBefore(hm, s);
 .zhibowxts .snvtvb{margin:2px 0px 0px 2px;border:1px solid #ccc;width:250px;float:right;padding-left:2px;}
 .play_list{float:left;}
 .zhibotitle div.txtt{float:right;padding-right:10px;font-size:12px;padding-top:4px;_padding-top:5px;}
-.zhibotitle div.txtt a{display:block; no-repeat 0px -5px;padding-left:24px;line-height:25px;font-family:'ËÎÌå';white-space:nowrap;}
+.zhibotitle div.txtt a{display:block; no-repeat 0px -5px;padding-left:24px;line-height:25px;font-family:'å®‹ä½“';white-space:nowrap;}
 .zhibotitle div.txt a:hover{background-position:0px -38px}
 .yuansheng{width:964px;height:300px;border:0px solid #ccc;float:left;padding-left:20px;}
 .wxts{margin:2px 5px 0px 5px;border:1px dashed #ccc;background-color:#f0f0f0;padding:10px;text-align:left;color:#888;}
@@ -92,9 +92,9 @@ body {
 <script src="ad.js" type="text/javascript"></script>
 <center><div><table width="996" border="0">
   <tr>
-    <td width="146"><img src="images/logo5.jpg" alt="¶«·½ÎÀÊÓÔÚÏßÖ±²¥" border="0" />;&nbsp;;&nbsp;;&nbsp;</td>
+    <td width="146"><img src="images/logo5.jpg" alt="ä¸œæ–¹å«è§†åœ¨çº¿ç›´æ’­" border="0" />;&nbsp;;&nbsp;;&nbsp;</td>
 	<td width="840">;&nbsp;<script type="text/javascript">
-    /*830*80 ´´½¨ÓÚ 2016-03-26*/
+    /*830*80 åˆ›å»ºäº 2016-03-26*/
     var cpro_id = "u2576770";
 </script>
 <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script></td>
@@ -109,17 +109,17 @@ body {
 
  <table width="996">
 	     <tr>
-<td colspan="2" rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/2345explorer_k67328396.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/browser.png?20131112">ÍõÅÆä¯ÀÀÆ÷</a></td>
-<td rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/2345pcsafe_k67328396.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/pcsafe.png">2345°²È«ÎÀÊ¿</a></td>
-<td rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/qqlive_k67328396_427708.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/big_qqlive.png">ÌÚÑ¶ÊÓÆµ</a></td>
+<td colspan="2" rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/2345explorer_k67328396.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/browser.png?20131112">ç‹ç‰Œæµè§ˆå™¨</a></td>
+<td rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/2345pcsafe_k67328396.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/pcsafe.png">2345å®‰å…¨å«å£«</a></td>
+<td rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/qqlive_k67328396_427708.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/big_qqlive.png">è…¾è®¯è§†é¢‘</a></td>
 
-<td rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/kugou_k67328396_223416.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/kugou_60X55.png">¿á¹·ÒôÀÖ </a></td>
-<td rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/kwmusic_k67328396_114413_v7.7.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/kwmusic.png">¿áÎÒÒôÀÖ</a></td>
-<td rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/iqiyi_k67328396_345994.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/big_iqiyi.png">°®ÆæÒÕ</a></td>
+<td rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/kugou_k67328396_223416.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/kugou_60X55.png">é…·ç‹—éŸ³ä¹ </a></td>
+<td rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/kwmusic_k67328396_114413_v7.7.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/kwmusic.png">é…·æˆ‘éŸ³ä¹</a></td>
+<td rowspan="2"><a href="http://jifendownload.2345.cn/jifen_2345/iqiyi_k67328396_345994.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/big_iqiyi.png">çˆ±å¥‡è‰º</a></td>
 
-<td><a href="http://jifendownload.2345.cn/jifen_movie/2345_k67328396_movie.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/movie.png?v=20140403">Ó°ÊÓ´óÈ«</a></td>
+<td><a href="http://jifendownload.2345.cn/jifen_movie/2345_k67328396_movie.exe" target=_blank><img src="http://img1.2345.com/jifenimg/img/resource/movie.png?v=20140403">å½±è§†å¤§å…¨</a></td>
 </tr></table>
-<table width="996"><tr><td><font size="4" color="#FF0033" >ÎÂÜ°ÌáÊ¾£ºÍÆ¼öÄúÊ¹ÓÃ2345ÍõÅÆä¯ÀÀÆ÷£¬¿´¶«·½ÎÀÊÓÁ÷³©£¬²»¿¨¶Ù£¬ÔÙÒ²²»ÓÃµÈ´ıÁË£¬Äú»¹ÔÚµÈÊ²Ã´£¿<a href="http://jifendownload.2345.cn/jifen_2345/2345explorer_k67328396.exe">µãÎÒÏÂÔØ</a></font></td></tr></table> 
+<table width="996"><tr><td><font size="4" color="#FF0033" >æ¸©é¦¨æç¤ºï¼šæ¨èæ‚¨ä½¿ç”¨2345ç‹ç‰Œæµè§ˆå™¨ï¼Œçœ‹ä¸œæ–¹å«è§†æµç•…ï¼Œä¸å¡é¡¿ï¼Œå†ä¹Ÿä¸ç”¨ç­‰å¾…äº†ï¼Œæ‚¨è¿˜åœ¨ç­‰ä»€ä¹ˆï¼Ÿ<a href="http://jifendownload.2345.cn/jifen_2345/2345explorer_k67328396.exe">ç‚¹æˆ‘ä¸‹è½½</a></font></td></tr></table> 
    
   <div class="zhiboplaybox">
     <div class="zhibowxts">
