@@ -1,10 +1,22 @@
 ﻿<?php
-$url=file_get_contents("https://m.tvsou.com/epg/SMG");
+$url=g_contents("https://m.tvsou.com/epg/SMG");
 preg_match_all( '#<span class="start">(.*?)<\/span>#', $url, $r);
 preg_match_all( '#<span class="name">(.*?)<\/span>#', $url, $t);
 foreach($r[0] as $k=>$v){
 $lrc= $t[0][$k];
 $liebiao.=$v.' '.$lrc.'<br>';
+}
+function g_contents($url) {
+       $ch = curl_init(); 
+curl_setopt($ch, CURLOPT_URL, $url); 
+curl_setopt($ch, CURLOPT_HEADER, false); 
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
+curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.1 Safari/537.11'); 
+$res = curl_exec($ch); 
+$rescode = curl_getinfo($ch, CURLINFO_HTTP_CODE);  
+curl_close($ch) ; 
+return $res;
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
